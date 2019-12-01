@@ -16,7 +16,7 @@ We have conducted our experiment on Flicker8k dataset.
  - Testing: 1000 Images
 
 ### Architecture
-In the “Show and Tell” paper, the model consists of two parts, which are GoogleNet and LSTM model. The role of the GoogleNet is to extract specific features in a picture, and give basic hints of vocabulary for constructing a sentence of the picture. LSTM constructs the caption sentence based on the vocabulary hints from the GoogleNet. In this section, we will describe the basic concept of GoogleNet and the use of LSTM model in the paper.
+In the “Show and Tell” paper, the model consists of two parts, which are GoogleNet and LSTM model. The role of the GoogleNet is to extract specific features in a picture, and give basic hints of vocabulary for constructing a sentence of the picture. LSTM constructs the caption sentence based on the vocabulary hints from the GoogleNet.
 
 <p align="center">
 <img src="/Readme_image/model.PNG" width=600>
